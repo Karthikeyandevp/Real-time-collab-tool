@@ -1,0 +1,69 @@
+/* Default Light Mode Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .card,
+.dark-mode .navbar,
+.dark-mode .container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode .form-control {
+  background-color: #333;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+.dark-mode .btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.dark-mode .btn-outline-secondary {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+/* Additional Dark Mode Enhancements */
+.dark-mode .list-group-item {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #444;
+}
+
+.dark-mode textarea {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border: 1px solid #555;
+}
+
+.dark-mode .navbar-toggler {
+  border-color: #ffffff;
+}
+
+.dark-mode .nav-link {
+  color: #ffffff !important;
+}
+
+.dark-mode .shadow {
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
